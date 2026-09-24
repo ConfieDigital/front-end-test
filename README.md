@@ -44,9 +44,9 @@ pnpm build
 
 ## Entrega
 
-1. Crea una rama con el formato `feat/explora-lecturas-nombre-apellido`.
-2. Realiza al menos un commit convencional, por ejemplo `feat: implementa listado de lecturas`.
-3. Comparte una URL a la rama o un archivo `.zip` sin `node_modules`.
-4. Añade el tiempo invertido, las decisiones relevantes y los pendientes conocidos.
+1. Crea una rama con el formato `feat/<nombre>`.
+2. Realiza al menos un commit convencional.
+3. Desarrolla el ejercicio.
+4. Genera un PR con la solución.
 
 Consulta los [criterios de evaluación](docs/CRITERIOS-DE-EVALUACION.md) antes de empezar.
