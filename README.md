@@ -49,4 +49,4 @@ pnpm build
 3. Desarrolla el ejercicio.
 4. Genera un PR con la solución.
 
-Consulta los [criterios de evaluación](docs/CRITERIOS-DE-EVALUACION.md) antes de empezar.
+Consulta los [criterios de evaluación](docs/criterios-de-evaluacion.md) antes de empezar.
