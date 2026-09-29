@@ -4,6 +4,25 @@
  * instancia la clase solo cuando el componente exista en la página.
  */
 
-class ArticlesPreviews {
-
+function initArticles() {
+    const button = document.querySelector("#btn-show")
+    const hiddenItems = document.querySelectorAll(".hidden__item")
+    if (!button) return 
+        button.addEventListener('click',() =>{
+                hiddenItems.forEach((item) => {
+                    item.classList.remove("hidden__item")
+                });
+        }
+    
+    ) 
 }
+
+document.addEventListener('DOMContentLoaded', () =>{
+    initArticles()
+} )
+
+
+class ArticlesPreviews {
+    
+}
+
