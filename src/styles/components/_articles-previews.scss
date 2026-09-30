@@ -6,6 +6,126 @@
  * o media queries según tu criterio.
  */
 
-.c-articles-previews {
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  background: #fafbfd;
+  opacity: 1;
+  padding-top: 56px;
+  padding-right: 20px;
+  padding-bottom: 56px;
+  padding-left: 20px;
 
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background: #ffffff;
+    box-shadow: 0px 6px 8px 0px #b4d4eb1f;
+    border-radius: 20px;
+    overflow: hidden;
+
+    .cardTop {
+      width: 100%;
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .cardBottom {
+      .cardBottom__date {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+        margin-top: 24px;
+        margin-left: 20px;
+        font-family: Inter;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0px;
+        color: #484848;
+      }
+
+      .cardBottom__title {
+        font-family: Inter;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0px;
+        color: #003282;
+        margin: 16px 20px;
+      }
+
+      .cardBottom__description {
+        font-family: Inter;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0px;
+        color: #484848;
+        margin: 0 20px 16px;
+      }
+
+      .cardBottom__url {
+        margin-left: 20px;
+        margin-bottom: 24px;
+
+        a {
+          text-decoration: none;
+          font-family: Inter;
+          font-weight: 600;
+          font-style: Semi Bold;
+          font-size: 16px;
+          line-height: 140%;
+          letter-spacing: 0px;
+          color: #cd0082;
+        }
+      }
+    }
+
+    &.insights__card--hidden {
+      display: none;
+    }
+  }
+
+  .buttonShow {
+    display: flex;
+
+    button {
+      padding-top: 16px;
+      padding-right: 40px;
+      padding-bottom: 16px;
+      padding-left: 40px;
+      border-width: 1px;
+      font-family: Inter;
+      font-weight: 600;
+      font-style: Semi Bold;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      border: 1px solid #cd0082;
+      color: #cd0082;
+      background: transparent;
+      border-radius: 50px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    justify-content: center;
+    gap: 25px;
+  }
 }
