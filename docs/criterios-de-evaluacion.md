@@ -3,7 +3,7 @@
 | Área               | Qué observamos                                                             | Puntaje |
 | ------------------ | -------------------------------------------------------------------------- | ------: |
 | Maquetación y Sass | Fidelidad al diseño de Figma, estructura responsive, BEM y Sass mantenible |      30 |
-| Accesibilidad      | Semántica, foco visible, teclado, etiquetas y anuncio del estado           |      25 |
+| Accesibilidad      | Semántica, foco visible, teclado, y etiquetas                              |      25 |
 | JavaScript         | Interacción correcta, estado consistente y código legible                  |      20 |
 | Calidad            | Organización, nombres y decisiones.                                        |      15 |
 | Git                | Rama solicitada y commits convencionales claros                            |      10 |
